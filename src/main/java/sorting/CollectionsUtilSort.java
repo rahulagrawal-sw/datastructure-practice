@@ -3,6 +3,7 @@ package sorting;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 public class CollectionsUtilSort {
     public static void main(String[] args) {
@@ -12,11 +13,9 @@ public class CollectionsUtilSort {
         System.out.printf("Modified arr[] : %s",
                 Arrays.toString(arr));
 
-
         //===========================================================================
-
         // Create a list of strings
-        ArrayList<String> al = new ArrayList<String>();
+        List<String> al = new ArrayList<>();
         al.add("Geeks For Geeks");
         al.add("Friends");
         al.add("Dear");
