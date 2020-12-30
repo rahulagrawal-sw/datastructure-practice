@@ -1,4 +1,4 @@
-package repracticemore;
+package hashmapusinglinkedlist;
 
 public class HashMapNd {
 
