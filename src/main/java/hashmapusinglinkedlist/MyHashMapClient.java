@@ -1,4 +1,6 @@
-package repracticemore;
+package hashmapusinglinkedlist;
+
+import java.util.Objects;
 
 public class MyHashMapClient {
     public static void main(String[] args) {
@@ -11,5 +13,7 @@ public class MyHashMapClient {
 
         hashMap.putIntoMap("AHNAGAR", 50);
         HashMapImpl.printHashMap(hashMap);
+
+        System.out.println(Objects.hashCode(null));
     }
 }
